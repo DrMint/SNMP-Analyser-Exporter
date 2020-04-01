@@ -2,9 +2,9 @@ import myLib
 
 # Let's enter all this necessary credentials
 myOidTable = myLib.OidTable()
-myOidTable.oid =            "1.3.6.1.4.1.11256.1.2.1.1"
-myOidTable.snmp.ip =        "192.168.17.254"
-myOidTable.snmp.community = "COMMUPAVIPREV"
+myOidTable.oid =            "1.3.6.1.4.1.XXXXX.X.X.X.X"
+myOidTable.snmp.ip =        "192.168.XX.XXX"
+myOidTable.snmp.community = "COMMUNITY_NAME"
 
 # Finds the number of rows in this table
 myOidTable.numRow = myOidTable.getNumRow()
