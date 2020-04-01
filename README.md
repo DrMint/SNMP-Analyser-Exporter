@@ -3,11 +3,6 @@ An easy way to make SNMP query, analyse data, and export tables
 
 This project uses [Quick SNMP (quicksnmp)](https://github.com/alessandromaggio/quicksnmp) by [alessandromaggio](https://github.com/alessandromaggio)
 
-# SNMP-Export-Analyse
-An easy way to make SNMP query, analyse data, and export tables
-
-This project uses [Quick SNMP (quicksnmp)](https://github.com/alessandromaggio/quicksnmp) by [alessandromaggio](https://github.com/alessandromaggio)
-
 
 The following exemple connects to a SNMP Manager, selects a specific table OID and export column 1, 2, and 3 in a CSV file.
 
