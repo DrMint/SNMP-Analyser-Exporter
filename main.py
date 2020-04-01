@@ -1,5 +1,4 @@
 import myLib
-from pysnmp import hlapi
 
 # Let's enter all this necessary credentials
 myOidTable = myLib.OidTable()
@@ -66,11 +65,3 @@ myCounters.addCounter(
 
 # Let's export this analysis in a CSV file
 myCounters.exportCountersCountToCSV("stats.csv", myTable)
-
-
-
-
-
-
-
-
